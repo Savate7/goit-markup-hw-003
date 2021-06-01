@@ -9,11 +9,7 @@
  --white-second-color: #F5F4FA; 
 }
 
-/* .conteiner {
-  width: 1600px;
-  margin: 0 0;
-  padding: 0 ; */
-/* } */
+
 
 /* Logo style */
 .logo_style {
@@ -23,8 +19,7 @@
   line-height: 1.363;
   color: var(--petty-color);
   letter-spacing: 0.03em;
-  margin-top: 24px;
-  margin-left: 215px;
+  margin-right: 93px;  
 }
 .logo_text {
   color: var(--black-color);
@@ -34,56 +29,59 @@
 
 }
 /* <!-- Head section --> */
-
-.header_tytle .nav ul {
-  display: flex;
-  margin-left: 92px;
-  margin-top: 32px;
-}
-
-.header_tytle .nav ul :first-child{
-  padding-right: 0px;
-}
-.header_tytle .nav ul :nth-child(2) {
-  margin: 0 50px;
-}
-.header_tytle ul {
-  display: flex;}
-
-header .header_tytle {
-  background-color: var(--other-text-ff);
-  padding: auto 215px;
-  display: flex;
-  height: 80px;
+header{
   border-bottom: 1px solid #ECECEC;
-  width: 1600px;
 }
 
-.header_style a:hover, a:focus {
+header .conteiner{
+
+  display: flex;
+  align-items: center;
+    
+}
+.header_link,
+.header_contacts {
+  margin: 32px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+  color: var(--while-color);
+  display: inline-block;
+  display: flex;
+}
+header .conteiner .nav .header_link :not(:last-child){
+   margin-right: 50px;
+}
+header .conteiner .header_contacts :not(:last-child) {
+  margin-right: 50px;
+}
+
+.header_link a:hover, a:focus
+ {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.172;
   letter-spacing: 0.02em;
   color: var(--petty-color);
 }
-.header_style {
+.header_contacts a:hover, a:focus
+ {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.172;
   letter-spacing: 0.02em;
-  color: var(--while-color);
-  margin-left: 331px;
-  margin-top: 32px;
-  display: inline-block;
- }
-header .header_style  {
-  color: var(--second-text-color);
-  
+  color: var(--petty-color);
 }
-header .header_style .cotacts_style_tel {
+
+.header_link  {
+  color: var(--black-color);
+  justify-content: start;  
+}
+.header_contacts  {
   color: var(--second-text-color);
-  padding-right: 215px;
-  padding-left: 50px;
+  justify-content: end;
+  margin-left: 331px;
 }
 
 
@@ -94,45 +92,46 @@ header .header_style .cotacts_style_tel {
 
 
 .boss_tytle {
-  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--gray-color);
   font-family: inherit;
-}
-
+  }
+  .boss_tytle .conteiner{
+    display: flex;
+    flex-direction: column;
+  }
 
 
 .boss_tytle h1 {
   display: inline-block;
   text-align: center;
-  width: 692;
+  width: 696;
 ;
 }
 .boss_style {
-  display: inline-block;
-  padding-top: 200px;
-  padding-left: 452px;
+  display: inline-block;  
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
   color: var(--other-text-ff);
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin: 0 auto;
 }
 .button_text {
-  padding: 10px 32px;
-  margin-top: 30px;
-  margin-left: 650px;
 
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
   display: inline-block;
-  /* align-items: center; */
+  margin: 30px auto auto;
   border: 0;
   background-color: var(--petty-color);
   border-radius: 4px;
   color: var(--other-text-ff);
   cursor: pointer;
+  padding: 10px 32px;
 }
 .current{
   color: var(--petty-color);
@@ -150,10 +149,10 @@ header .header_style .cotacts_style_tel {
   
 }
 .info_about_us .conteiner{  
+  margin: 94px auto;
   font-size: 14px;
   letter-spacing: 0.03em;
   display: flex;
-  padding: 94px 215px 0 215px;
   justify-content: space-between;
     
 }
@@ -180,10 +179,9 @@ header .header_style .cotacts_style_tel {
 /* studio section */
 .studio_style .conteiner ul{
   display: flex;
-  margin-left: 215px;
+  margin-bottom: 94px;
 }
-.studio_style .conteiner ul :nth-child(2) {
-  margin-left: 30px;
+.studio_style .conteiner ul :not(:last-child) {
   margin-right: 30px;
 }
 
@@ -193,28 +191,26 @@ header .header_style .cotacts_style_tel {
   line-height: 1.171;
   letter-spacing: 0.03em;
   color: var(--black-color);
-  margin-top: 94px;
   margin-bottom: 50px;
-  margin-left: 612px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 
 /* team section */
 
 .team_section_style {
-  height: 648px;
+  padding: 94px 0;
   background: var(--white-second-color);
 }
 
 .team_section_style .conteiner .style_text_h2{
-  margin-left: 668px;
-  padding-top: 94px;
+justify-content: center;
 }
 .team_section_style .conteiner ul{
   display: flex;
   justify-content: space-between;
-  margin-left: 215px;
-  margin-right: 215px;
-  height: 368px;
   text-align: center;
   
 }
@@ -251,11 +247,13 @@ header .header_style .cotacts_style_tel {
 
 /* main style */
 
+.portfolio .conteiner{
+  padding: 94px 0;
+}
 
 .conteiner .button_port_style {
 display: flex;
 justify-content: center;
-margin-top: 100px;
 margin-bottom: 26px;
 }
 .conteiner .button_port_style :nth-child(2){
@@ -290,9 +288,6 @@ margin-bottom: 26px;
   
 }
 .style_title_port{
-  margin-left: 215px;
-  margin-right: 215px;
-  margin-bottom: 94px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -345,22 +340,20 @@ margin-bottom: 26px;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  height: 252px;
   }
+.footer_style .conteiner{
+  padding: 60px 0;
+}
 .footer_cotacts_style{  
   color: rgba(255, 255, 255, 0.6);
 }
-.footer_style a {
+.footer_style .conteiner a {
   display: inline-block;
-  margin-top: 60px;
 }
 
 .adress_style{
   color: var(--other-text-ff);
-  margin-left: 215px;
   width: 231px;
-  height: 21px;
-  margin-top: 20px;
 }
 .adress_style .footer_cotacts_style {
   margin-top: 9px;
