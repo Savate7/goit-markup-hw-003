@@ -288,10 +288,12 @@ margin-bottom: 26px;
 }
 .style_title_port{
   margin-left: 215px;
+  margin-right: 215px;
   margin-bottom: 94px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
   }
   .style_title_port li{
     background-color: var(--other-text-ff);
@@ -299,7 +301,7 @@ margin-bottom: 26px;
     border: 1px solid #EEEEEE;
     margin-top: 30px;
   }
-.style_title_port :nth-child(2){
+/* .style_title_port :nth-child(2){
   margin: 30px 30px 0;
 }
 .style_title_port :nth-child(5){
@@ -308,7 +310,7 @@ margin-bottom: 26px;
     margin: 30px 30px 0;}
 .style_title_port li{
   list-style-type: none;
-  
+   */
 }
 .style_title_port h3{
   font-weight: bold;
@@ -327,6 +329,7 @@ margin-bottom: 26px;
   color: var(--second-text-color);
   padding-bottom: 20px;
   padding-top: 4px;
+  margin: 0;
 
 }
 
