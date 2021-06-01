@@ -41,7 +41,8 @@ header .conteiner{
 }
 .header_link,
 .header_contacts {
-  margin: 32px 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.172;
@@ -149,7 +150,8 @@ header .conteiner .header_contacts :not(:last-child) {
   
 }
 .info_about_us .conteiner{  
-  margin: 94px auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
   font-size: 14px;
   letter-spacing: 0.03em;
   display: flex;
@@ -179,7 +181,7 @@ header .conteiner .header_contacts :not(:last-child) {
 /* studio section */
 .studio_style .conteiner ul{
   display: flex;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .studio_style .conteiner ul :not(:last-child) {
   margin-right: 30px;
@@ -201,7 +203,8 @@ header .conteiner .header_contacts :not(:last-child) {
 /* team section */
 
 .team_section_style {
-  padding: 94px 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
   background: var(--white-second-color);
 }
 
@@ -248,7 +251,8 @@ justify-content: center;
 /* main style */
 
 .portfolio .conteiner{
-  padding: 94px 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .conteiner .button_port_style {
@@ -342,7 +346,8 @@ margin-bottom: 26px;
   letter-spacing: 0.03em;
   }
 .footer_style .conteiner{
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer_cotacts_style{  
   color: rgba(255, 255, 255, 0.6);
