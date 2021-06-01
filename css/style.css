@@ -9,11 +9,11 @@
  --white-second-color: #F5F4FA; 
 }
 
-.conteiner {
+/* .conteiner {
   width: 1600px;
   margin: 0 0;
-  padding: 0 ;
-}
+  padding: 0 ; */
+/* } */
 
 /* Logo style */
 .logo_style {
@@ -153,12 +153,12 @@ header .header_style .cotacts_style_tel {
   font-size: 14px;
   letter-spacing: 0.03em;
   display: flex;
-  margin-top: 94px;
-  justify-content: center;
+  padding: 94px 215px 0 215px;
+  justify-content: space-between;
     
 }
 .info_about_us .conteiner li p {
-  margin-top: 10px;
+  margin-top: 10px; 
   
 }
 .info_about_us h3{
@@ -171,9 +171,9 @@ header .header_style .cotacts_style_tel {
   color: var(--second-text-color);
   padding: 0;
 }
-.info_about_us .conteiner :not(:first-child) {
+/* .info_about_us .conteiner :not(:first-child) {
   padding-left: 30px;
-}
+} */
    
   
 
@@ -211,10 +211,12 @@ header .header_style .cotacts_style_tel {
 }
 .team_section_style .conteiner ul{
   display: flex;
+  justify-content: space-between;
   margin-left: 215px;
-  width: 270px;
+  margin-right: 215px;
   height: 368px;
   text-align: center;
+  
 }
 .team_section_style .conteiner ul h3{
   font-weight: 500;
@@ -233,16 +235,17 @@ header .header_style .cotacts_style_tel {
 }
 
 .team_section_style .conteiner ul li{
-  
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
   background: var(--other-text-ff);
 }
-.team_section_style .conteiner ul :nth-child(2) {
+/* .team_section_style .conteiner ul :nth-child(2) {
   margin-left: 30px;
   margin-right: 30px;
 }
 .team_section_style .conteiner ul :last-child {
   margin-left: 30px;
-}
+} */
 
 /* PORTFOLIO */
 
@@ -311,25 +314,26 @@ margin-bottom: 26px;
 .style_title_port li{
   list-style-type: none;
    */
-}
+
 .style_title_port h3{
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--black-color);
-  margin: 20px auto auto 24px ;
-  text-align: start;
- 
+  margin-top: 20px;
+  margin-left: 24px;
+  margin-bottom: 0;
+  
 }
 .style_title_port p{
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
-  padding-bottom: 20px;
-  padding-top: 4px;
-  margin: 0;
+  margin-bottom: 20px;
+  margin-top: 4px;
+  margin-left: 24px;
 
 }
 
