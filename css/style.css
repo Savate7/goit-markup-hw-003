@@ -37,10 +37,10 @@ header .conteiner{
 
   display: flex;
   align-items: center;
-    
 }
+
 .header_link,
-.header_contacts {
+.header_contacts { 
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
@@ -48,8 +48,8 @@ header .conteiner{
   line-height: 1.172;
   letter-spacing: 0.02em;
   color: var(--while-color);
-  display: inline-block;
   display: flex;
+  margin: 0;
 }
 header .conteiner .nav .header_link :not(:last-child){
    margin-right: 50px;
@@ -77,12 +77,10 @@ header .conteiner .header_contacts :not(:last-child) {
 
 .header_link  {
   color: var(--black-color);
-  justify-content: start;  
 }
 .header_contacts  {
+  margin-left: auto;
   color: var(--second-text-color);
-  justify-content: end;
-  margin-left: 331px;
 }
 
 
