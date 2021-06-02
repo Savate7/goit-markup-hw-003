@@ -342,10 +342,7 @@ footer .conteiner ul {
 .adress_style{
   color: var(--other-text-ff);
 }
-.adress_style .footer_cotacts_style {
+.adress_style li {
   margin-top: 9px;
   height: 21px;
   }
-.adress_style .footer_cotacts_style :last-child{
-  margin-top: 9px
-}
