@@ -165,12 +165,7 @@ header .conteiner .header_contacts :not(:last-child) {
   color: var(--second-text-color);
   padding: 0;
 }
-/* .info_about_us .conteiner :not(:first-child) {
-  padding-left: 30px;
-} */
    
-  
-
 /* studio section */
 
 .studio_style .conteiner ul{
@@ -189,8 +184,8 @@ header .conteiner .header_contacts :not(:last-child) {
   letter-spacing: 0.03em;
   color: var(--black-color);
   text-align: center;
-  margin-bottom: 50px;
-  margin-top: 0;
+  padding-bottom: 50px;
+
 }
 
 /* team section */
@@ -216,7 +211,6 @@ justify-content: center;
   line-height: 1.171;
   letter-spacing: 0.03em;
   color: var(--black-color);
-  margin-top: 30px;
 }
 .team_section_style .conteiner ul p{
   font-size: 16px;
@@ -225,19 +219,16 @@ justify-content: center;
   color: var(--second-text-color);
   margin-top: 10px;
 }
+.team_item {
+  padding: 30px 0;
+}
+
 
 .team_section_style .conteiner ul li{
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background: var(--other-text-ff);
 }
-/* .team_section_style .conteiner ul :nth-child(2) {
-  margin-left: 30px;
-  margin-right: 30px;
-}
-.team_section_style .conteiner ul :last-child {
-  margin-left: 30px;
-} */
 
 /* PORTFOLIO */
 
@@ -251,13 +242,10 @@ justify-content: center;
 .conteiner .button_port_style {
 display: flex;
 justify-content: center;
-margin-bottom: 26px;
 }
-.conteiner .button_port_style :nth-child(2){
-  margin: 0 8px;
+.conteiner .button_port_style :not(:last-child){
+  margin-right: 8px;
 }
-.conteiner .button_port_style :nth-child(4){
-  margin: 0 8px;
 }
 .button_port_style li {
   list-style-type: none;
@@ -289,34 +277,32 @@ margin-bottom: 26px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 50px;
   }
   .style_title_port li{
     background-color: var(--other-text-ff);
     ;
     border: 1px solid #EEEEEE;
-    margin-top: 30px;
-  }
-
+      }
+.port_item {
+  margin: 20px 24px;
+}
 .style_title_port h3{
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--black-color);
-  margin-top: 20px;
-  margin-left: 24px;
-  margin-bottom: 0;
-  
+  margin-bottom: 4px;
+    
 }
+
 .style_title_port p{
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
-  margin-bottom: 20px;
-  margin-top: 4px;
-  margin-left: 24px;
-
+ 
 }
 
 /* footer section */
@@ -328,6 +314,10 @@ footer {
 .footer_cotacts_style{  
   color: rgba(255, 255, 255, 0.6);
 }
+footer .conteiner .logo_style {
+  margin-bottom: 20px;
+  margin-right: 0;
+}
 
 footer .conteiner ul {
   display: inline-block;
@@ -336,7 +326,6 @@ footer .conteiner ul {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  margin-top: 20px;
 }
 
 .adress_style{
