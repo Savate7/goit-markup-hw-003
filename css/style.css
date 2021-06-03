@@ -242,10 +242,10 @@ justify-content: center;
 .conteiner .button_port_style {
 display: flex;
 justify-content: center;
+margin-bottom: 50px;
 }
 .conteiner .button_port_style :not(:last-child){
   margin-right: 8px;
-}
 }
 .button_port_style li {
   list-style-type: none;
@@ -275,29 +275,34 @@ justify-content: center;
 .style_title_port{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 50px;
+  flex-wrap: wrap;  
+  margin-top: -30px;
+  margin-left: -30px; 
   }
-  .style_title_port li{
+   
+  .style_title_port li {  
     background-color: var(--other-text-ff);
-    ;
-    border: 1px solid #EEEEEE;
-      }
+    outline: 1px solid #EEEEEE;
+    margin-top: 30px;
+    margin-left: 30px; 
+    flex-basis: calc((100% / 3) - 30px);       
+  }
+ 
 .port_item {
-  margin: 20px 24px;
+  padding: 20px 24px;
+    
 }
-.style_title_port h3{
+.style_title_port .port_item h3{
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--black-color);
-  margin-bottom: 4px;
+  margin-bottom: 4px; 
     
 }
 
-.style_title_port p{
+.style_title_port .port_item p{
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
