@@ -167,6 +167,9 @@ header .conteiner .header_contacts :not(:last-child) {
 }
    
 /* studio section */
+.studio_style{
+  padding-bottom: 94px;
+}
 
 .studio_style .conteiner ul{
   display: flex;
